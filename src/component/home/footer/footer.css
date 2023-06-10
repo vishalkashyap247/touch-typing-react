@@ -1,0 +1,14 @@
+.footer{
+    text-align: center;
+    margin: 50px;
+}
+
+.footer > .tag{
+    color: blue;
+    text-decoration: none;
+
+}
+
+.footer > .tag:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,186 @@
+.is-correct {
+  color: green;
+}
+
+.is-incorrect {
+  color: red;
+}
+
+ .has-background-success {
+  background-color: green;
+  color: white;
+}
+
+.has-background-danger {
+  background-color: red;
+  color: white;
+}
+
+.has-background-success {
+  background-color: green;
+  color: white;
+}
+
+.has-background-danger {
+  background-color: red;
+  color: white;
+}
+
+.is-blue{
+  color: blue;
+}
+
+.is-grey{
+  color: grey;
+}
+
+.is-green{
+  color: green;
+}
+
+.is-red{
+  color: red;
+}
+
+.is-default{
+  color: darkslategrey;
+}
+
+.history{
+  overflow-wrap: break-word;
+}
+
+.home{
+  padding: 25px;
+}
+
+.timer{
+  background-color: #17cf97;
+  text-align: center;
+  font-size: 35px;
+  /* border: 1px solid black; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* margin-bottom: 25px; */
+}
+
+.writeThisText{
+  font-size: 22px;
+  padding: 25px 10px 25px 10px;
+  /* padding-bottom: 25px; */
+  border-left: 1px solid #17cf97;
+  border-right: 1px solid #17cf97;
+  line-height: 30px;
+  border-bottom: 1px solid #17cf97;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  /* margin-bottom: 25px; */
+}
+
+.inputDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #17cf97;
+  border-top: none;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.inputDiv > form > input{
+  background-color: #c2f4e5;
+  width: 250px;
+  padding: 7px 50px 7px 50px;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  color: #1b2430;
+  text-align: center;
+}
+
+.inputDiv > form > input:focus{
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.inputDiv > .button > button{
+  margin-top: 10px;
+  background-color: #e1fdf5;
+  padding: 5px 50px 5px 50px;
+  /* border: none; */
+  border: 1px solid #e1fdf5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputDiv > .button > button:hover{
+  border-bottom: 1px solid black ;
+}
+
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+
+
+.menu p {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #17cf97;
+}
+
+.menu select {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #17cf97;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.menu select:focus {
+  outline: none;
+}
+
+.menu select option {
+  background-color: #fff;
+  color: #000;
+}
+
+.menuDropdown{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.menuDropdown> .first{
+  margin-right: 10px;
+}
+
+.result{
+  /* margin-top: 20px; */
+  border: 1px solid #17cf97;
+  padding: 25px;
+  border-top: none;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+}
+
+.resultMain{
+  margin-top: 20px;
+}
+
+.mrgTop{
+  margin-top: 20px;
+}
